@@ -8,7 +8,7 @@
                 background-color: wheat;
             }
             .seção1{
-                height: 10cm;
+                height: 13cm;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -17,11 +17,38 @@
             }
             .proper {
                 width: 4cm;
+                word-break: break-all;
                 font-family: 'Share Tech Mono';
-                font-size: 24pt;
+                font-size: 22pt;
                 text-align: center;
                 color: chocolate;
                 
+            }
+            .justo {
+                text-align: center;
+                width: 4cm;
+                font-size: 24pt;
+                color: sienna;
+                text-decoration: underline;
+                border: 1px solid black;
+            }
+            .wwrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 4cm;
+                height: 4cm;
+                font-family: 'Share Tech Mono';
+            }
+            .palavras {
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid;
+                width: 40px;
+                word-break: break-all;
             }
             
         </style>
@@ -30,8 +57,8 @@
 <body>
 
     <section class="seção1">
-            <header class="proper">To get a clearer, proper view of the html world</header>
-            
+            <header class="proper">Use para centralizar<header class="justo">justify-content</header>elementos verticalmente</header>
+            <article class="wwrap">Use tambem word-break pra quebrar <section class="palavras">palavras</section> ao meio.</article>          
     </section>
 
             <header class="dedolado" style="height: 20px; width: 20px; position: relative; font-size: 32pt; animation: direita 1.5s linear infinite;">👉</header>
